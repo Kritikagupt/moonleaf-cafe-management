@@ -1,0 +1,30 @@
+/*🌙 Google Font (optional but aesthetic) */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Poppins:wght@300;400;500&display=swap');
+
+:root {
+  --bg-dark: #0f0f0f;
+  --bg-card: #1a1a1a;
+  --accent: #8b6f4e;      /* coffee brown */
+  --text-main: #f5f5f5;
+  --text-muted: #b5b5b5;
+}
+
+/* 🌑 Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background: var(--bg-dark);
+}
+
+/* Body */
+body {
+  display: flex;
+  flex-direction: column;
+  color: var(--text-main);
+  font-family: 'Poppins', sans-serif;
+}
